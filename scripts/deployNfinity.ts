@@ -7,7 +7,7 @@ async function main() {
   const nfinityContract = await ethers.getContractFactory("Nfinity");
   const nfinity = await nfinityContract.deploy("NFINITY");
 
-  console.log("TestToken deployed to:", nfinity.address);
+  console.log("Nfinity deployed to:", nfinity.address);
 }
 
 main()
